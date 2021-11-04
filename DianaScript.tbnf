@@ -130,7 +130,7 @@ filter[keep, discard] :
 expr : or_expr { $1 }
 
 or_expr : or_expr "or" and_expr
-            { mkAnd($2, $1, $3)  }
+            { mkOr($2, $1, $3)  }
          | and_expr { $1 }
 
 and_expr : and_expr "and" not

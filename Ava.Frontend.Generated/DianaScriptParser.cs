@@ -3353,7 +3353,7 @@ public partial class DianaScriptParser : Parser {
 					                  tmp__257 = ( CommonToken ) _localctx.local__2_or_expr_case0 ; 
 					                  tmp__258 = ( ImmediateAST ) _localctx.local__1_or_expr_case0.result ; 
 					                  tmp__259 = ( ImmediateAST ) _localctx.local__3_or_expr_case0.result ; 
-					                  tmp__260 = (ImmediateAST) mkAnd( tmp__257, tmp__258, tmp__259 ); 
+					                  tmp__260 = (ImmediateAST) mkOr( tmp__257, tmp__258, tmp__259 ); 
 					                  _localctx.result =  tmp__260; 
 					                
 					}

@@ -850,7 +850,7 @@ or_expr returns [ImmediateAST result] :
         tmp__257 = ( CommonToken ) _localctx.local__2_or_expr_case0 ; 
         tmp__258 = ( ImmediateAST ) _localctx.local__1_or_expr_case0.result ; 
         tmp__259 = ( ImmediateAST ) _localctx.local__3_or_expr_case0.result ; 
-        tmp__260 = (ImmediateAST) mkAnd( tmp__257, tmp__258, tmp__259 ); 
+        tmp__260 = (ImmediateAST) mkOr( tmp__257, tmp__258, tmp__259 ); 
         $result = tmp__260; 
       } 
     | local__1_or_expr_case1=and_expr { 
