@@ -1,3 +1,8 @@
+
+Check out https://github.com/thautwarm/DianaScript-JIT for the successor project.
+
+---
+
 Powered by [Typed BNF](https://github.com/thautwarm/typed-bnf).
 
 ## diana script
